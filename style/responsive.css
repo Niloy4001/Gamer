@@ -48,6 +48,12 @@
         gap: 1rem;
         text-align: center;
     }
+    /* Videos section **************************** */
+    .video-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 24px;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
      /* default ************** */
@@ -96,5 +102,11 @@
     .gamer-content{
         gap: 1rem;
         text-align: center;
+    }
+     /* Videos section **************************** */
+     .video-container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap: 24px;
     }
 }
