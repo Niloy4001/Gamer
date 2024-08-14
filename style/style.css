@@ -16,7 +16,7 @@ body{
     margin: 0 auto 120px auto;
 }
 .secondary-box{
-    max-width: 100%;
+    max-width: 1920px;
     margin: 0 auto 120px auto;
 }
 .primary-text{
@@ -271,4 +271,54 @@ nav{
 .game-image .game-image-2 img{
     width: 100%;
 }
+/* Carrier section  *************************** */
+.career{
+    background-color: #FF42A5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    /* box-sizing: border-box; */
+}
+.career-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 240px;
+}
+.career-list{
+    display: flex;
+    justify-content: space-between;
+}
+.career-list p{
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* category section *************************** */
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
 
+}
+.category-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 50px ;
+    max-width: 250px;
+    padding: 0 10px;
+}
+.category-item-3{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+}
+.category-item:hover{
+    border: 2px solid #41A5FE;
+    color: black;
+}
