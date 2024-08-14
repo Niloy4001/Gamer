@@ -201,3 +201,42 @@ nav{
 .video-1:hover, .video-2:hover, .video-3:hover, .video-4:hover{
     border:2px solid #FF42A5;
 }
+/* Play instantly section ************************ */
+.play-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.play{
+    width: 87%;
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr;
+    
+}
+.play-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.play-image{
+    text-align: right;
+    position: relative;
+}
+.play-image .play-image-1 img{
+    width: 75%;
+}
+.play-image .play-image-2 img{
+    width: 100%;
+}
+
+.play-image-2{
+    position: absolute;
+    bottom: -12%;
+    left: 12%;
+    width: 35%;
+}
+.play-image .play-image-2 img{
+    width: 100%;
+}
+
