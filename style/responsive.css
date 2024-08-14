@@ -1,5 +1,8 @@
 
 @media screen and (max-width:576px) {
+    html{
+        font-size: 10px;
+    }
     /* Navbar************* */
     .navbar{
         flex-direction: column;
@@ -7,6 +10,17 @@
     }
     .nav-link{
         flex-direction: column;
+    }
+    /* banner**************** */
+    .banner{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+    .banner-content{
+        order: 2;
+    }
+    .banner-images {
+        order: 1;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
